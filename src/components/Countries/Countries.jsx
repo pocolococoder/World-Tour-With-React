@@ -22,16 +22,16 @@ const Countries = ({countriesFetch}) => {
         <div>
             <h1>In the countries: {countries.length}</h1>
 
-            <h3>Total Country Visited: {visitedCountries.length} </h3>
+            <h3>Visited Country: {visitedCountries.length} </h3>
             <div className='card'>
                 {
-                    visitedCountries.map(country=><li>{country.name.common} key={country.cca3.cca3}</li>)
+                    visitedCountries.map(country=><li>{country.name.common}</li>)
                 }
             </div>
 
             <div className='card'>
                 {
-                    visitedCountries.map(country=><img className='image1' src={country.flags.flags.png} alt={country.flags.flags.alt} key={country.cca3.cca3}></img>)
+                    visitedCountries.map(country=><img className='image1' src={country.flags.flags.png} alt={country.flags.flags.alt}></img>)
                 }
             </div>
 
