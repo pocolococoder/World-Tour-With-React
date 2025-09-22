@@ -1,0 +1,18 @@
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    border: 2px solid lightblue;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.image1{
+    
+    height: 50px;
+    width: 70px;
+    
+    
+}
